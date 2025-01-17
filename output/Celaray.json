@@ -1,0 +1,132 @@
+[
+  {
+    "Key": "#025",
+    "name": "Celaray",
+    "small_image": "https://static.wikia.nocookie.net/palworld/images/9/95/Celaray_menu.png",
+    "full_image": "https://static.wikia.nocookie.net/palworld/images/a/aa/Celaray.png",
+    "description": "Riding the wind, this Pal travels where it pleases. Should it find a partner along the way, the encounter will mark its journey's end.",
+    "food": 18,
+    "work_suitability": [
+      {
+        "type": "watering",
+        "image": "../assets/images/works/watering.png",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "image": "../assets/images/works/transporting.png",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "name": "Pal Fluids",
+        "image": "../assets/images/items/Pal Fluids"
+      }
+    ],
+    "partner_skill": {
+      "name": "Zephyr Glider",
+      "description": "While in team, can be summoned and used instead of a glider.Allows you to move quickly for long periods of time while gliding with this Pal."
+    }
+  },
+  {
+    "stats": {
+      "Size": "M",
+      "Rarity": "3",
+      "Health": "80",
+      "Food": "225",
+      "MeleeAttack": "100",
+      "Attack": "70",
+      "Defense": "80",
+      "Work Speed": "100",
+      "Support": "100",
+      "CaptureRateCorrect": "1.1",
+      "MaleProbability": "50",
+      "CombiRank": "870",
+      "Gold Coin": "2860",
+      "Egg": "Damp Egg",
+      "Code": "FlyingManta",
+      "SlowWalkSpeed": "30",
+      "WalkSpeed": "150",
+      "RunSpeed": "550",
+      "RideSprintSpeed": "700",
+      "TransportSpeed": "350",
+      "Tribe": "FlyingManta",
+      "BPClass": "FlyingManta",
+      "ZukanIndex": "25",
+      "ElementType1": "Water",
+      "GenusCategory": "Other",
+      "EnemyMaxHPRate": "1",
+      "EnemyReceiveDamageRate": "1.2",
+      "EnemyInflictDamageRate": "1",
+      "ExpRatio": "1",
+      "StatusResistUpRate": "1",
+      "AIResponse": "Escape_to_Battle",
+      "BattleBGM": "Cute",
+      "FullStomachDecreaseRate": "1",
+      "FoodAmount": "3",
+      "ViewingDistance": "25",
+      "ViewingAngle": "90",
+      "HearingRate": "1",
+      "Stamina": "100"
+    },
+    "active_skills": [
+      {
+        "level": "1",
+        "name": "Hydro Jet",
+        "element": "Water",
+        "cooldown": "2",
+        "power": "30",
+        "description": "Hurls a high speed ball of water\r\nat an enemy."
+      },
+      {
+        "level": "7",
+        "name": "Aqua Gun",
+        "element": "Water",
+        "cooldown": "4",
+        "power": "40",
+        "description": "Hurls a ball of water\r\nstraight at an enemy."
+      },
+      {
+        "level": "15",
+        "name": "Power Shot",
+        "element": "Neutral",
+        "cooldown": "4",
+        "power": "35",
+        "description": "Charges energy\r\ninto a focused blast."
+      },
+      {
+        "level": "22",
+        "name": "Bubble Blast",
+        "element": "Water",
+        "cooldown": "13",
+        "power": "65",
+        "description": "Fires numerous bubbles\r\nthat slowly pursue an enemy."
+      },
+      {
+        "level": "30",
+        "name": "Seed Machine Gun",
+        "element": "Grass",
+        "cooldown": "9",
+        "power": "50",
+        "description": "Fires a volley of hard seeds\r\nat enemies in front of it."
+      },
+      {
+        "level": "40",
+        "name": "Aqua Burst",
+        "element": "Water",
+        "cooldown": "30",
+        "power": "100",
+        "description": "Creates a giant ball of water\r\nand hurls it at an enemy."
+      },
+      {
+        "level": "50",
+        "name": "Hydro Laser",
+        "element": "Water",
+        "cooldown": "55",
+        "power": "150",
+        "description": "Shoots pressurized water at extreme velocities,\r\nsweeping over a wide area in front of it."
+      }
+    ]
+  }
+]

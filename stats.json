@@ -1,0 +1,22 @@
+{
+  "Type": "Production",
+  "Workload": "Handiwork x500000",
+  "Energy Type": "Electric",
+  "Code": "MedicineFacility_03",
+  "Defense": 4,
+  "Medicine Production": 1,
+  "Worker Max": 1,
+  "Hp": 15000,
+  "DeteriorationDamage": "0.15",
+  "TypeA": "Product",
+  "RedialIndex": 27,
+  "TypeB": "Prod_Medicine",
+  "Rank": 1,
+  "AssetValue": 1,
+  "ConsumeEnergySpeed": 1000,
+  "BuildExpRate": "16.79",
+  "TypesA": "Food Consume",
+  "TypesB": "Medicine Drug ConsumeGainStatusPoints ConsumePalRevive",
+  "Rank Max": 5,
+  "Speed Rate": 3
+}

@@ -1,0 +1,203 @@
+[
+  {
+      "id": 1,
+      "key": "001",
+      "image": "../assets/images/paldeck/001.png",
+      "name": "Lamball",
+      "wiki": "https://palworld.fandom.com/wiki/Lamball",
+      "types": [
+          {
+              "name": "neutral",
+              "image": "../assets/images/elements/neutral.png"
+          }
+      ],
+      "imageWiki": "https://static.wikia.nocookie.net/palworld/images/0/01/Lamball_menu.png/",
+      "suitability": [
+          {
+              "type": "handiwork",
+              "image": "../assets/images/works/handiwork.png",
+              "level": 1
+          },
+          {
+              "type": "transporting",
+              "image": "../assets/images/works/transporting.png",
+              "level": 1
+          },
+          {
+              "type": "farming",
+              "image": "../assets/images/works/farming.png",
+              "level": 1
+          }
+      ],
+      "drops": ["wool", "lamball_mutton"],
+      "aura": {
+          "name": "fluffy_shield",
+          "description": "When activated, equips to the player and becomes a shield.\nSometimes drops Wool when assigned to Ranch.",
+          "tech": null
+      },
+      "description": "A walk up a hill tends to end with this Pal tumbling back down. This causes it to become dizzy and unable to move, making it easy to capture and kill. As a result, this pal has tumbled down to the very bottom of the food chain itself.",
+      "skills": [
+          {
+              "level": 1,
+              "name": "roly_poly",
+              "type": "neutral",
+              "cooldown": 1,
+              "power": 35,
+              "description": "Lamball's special skill. Curls into a ball, rolling after any enemies in its way. Becomes dizzy and unable to move after the attack ends.\n"
+          },
+          {
+              "level": 7,
+              "name": "air_cannon",
+              "type": "neutral",
+              "cooldown": 2,
+              "power": 25,
+              "description": "Quickly fires a burst of highly pressurized air.\n"
+          },
+          {
+              "level": 15,
+              "name": "power_shot",
+              "type": "neutral",
+              "cooldown": 4,
+              "power": 35,
+              "description": "Charges energy into a focused blast.\n"
+          },
+          {
+              "level": 22,
+              "name": "implode",
+              "type": "neutral",
+              "cooldown": 55,
+              "power": 180,
+              "description": "Risks its life to cause a violent explosion. Becomes incapacitated afterwards.\n"
+          },
+          {
+              "level": 30,
+              "name": "electric_ball",
+              "type": "electric",
+              "cooldown": 9,
+              "power": 50,
+              "description": "Fires an electric ball that slowly pursues an enemy.\n"
+          },
+          {
+              "level": 40,
+              "name": "power_bomb",
+              "type": "neutral",
+              "cooldown": 15,
+              "power": 70,
+              "description": "Charges a massive amount of energy before firing a large destructive ball.\n"
+          },
+          {
+              "level": 50,
+              "name": "pal_blast",
+              "type": "neutral",
+              "cooldown": 55,
+              "power": 150,
+              "description": "Charges destructive energy before firing a high-powered beam forward across a wide area.\n"
+          }
+      ],
+      "stats": {
+          "hp": 70,
+          "attack": {
+              "melee": 70,
+              "ranged": 70
+          },
+          "defense": 70,
+          "speed": {
+              "ride": 550,
+              "run": 400,
+              "walk": 40
+          },
+          "stamina": 100,
+          "support": 100,
+          "food": 2
+      },
+      "asset": "SheepBall",
+      "genus": "humanoid",
+      "rarity": 1,
+      "price": 1000,
+      "size": "xs",
+      "maps": {
+          "day": "../assets/images/maps/001-day.png",
+          "night": "../assets/images/maps/001-night.png"
+      },
+      "breeding": {
+          "rank": 1470,
+          "order": 27,
+          "child_eligble": true,
+          "male_probability": 50.0
+      }
+  },
+  {
+      "Key": "#112",
+      "name": "Bellanoir",
+      "small_image": "https://static.wikia.nocookie.net/palworld/images/5/58/Bellanoir_menu.png",
+      "full_image": "https://static.wikia.nocookie.net/palworld/images/8/8a/Bellanoir.png/revision/latest/scale-to-width-down/350?cb=20240404154635",
+      "description": "Without existing, she quietly gazed upon the world. One day, she was seized with a longing to be seen. With unbridled lust for vengeance against reality, thus was born the Eclipsed Siren.",
+      "food": 4,
+      "work_suitability": [
+          {
+              "type": "handiwork",
+              "image": "../assets/images/works/handiwork.png",
+              "level": 2
+          },
+          {
+              "type": "medicine production",
+              "image": "../assets/images/works/medicine production.png",
+              "level": 4
+          },
+          {
+              "type": "transporting",
+              "image": "../assets/images/works/transporting.png",
+              "level": 2
+          }
+      ],
+      "drops": [],
+      "partner_skill": {
+          "name": "Nightmare Iris",
+          "icon": "https://static.wikia.nocookie.net/palworld/images/5/5e/Slam_Skill.png",
+          "description": "When activated, attacks targeted enemy with a powerfulNightmare Ray."
+      }
+  },
+  {
+      "Size": "S",
+      "Rarity": "5",
+      "Health": "95",
+      "Food": "300",
+      "MeleeAttack": "100",
+      "Attack": "90",
+      "Defense": "80",
+      "Work Speed": "100",
+      "Support": "100",
+      "CaptureRateCorrect": "1",
+      "MaleProbability": "50",
+      "CombiRank": "675",
+      "Gold Coin": "2610",
+      "Egg": "Large Rocky Egg",
+      "Code": "FeatherOstrich",
+      "SlowWalkSpeed": "80",
+      "WalkSpeed": "160",
+      "RunSpeed": "900",
+      "RideSprintSpeed": "1200",
+      "TransportSpeed": "-1",
+      "GravityScale": "0.85",
+      "JumpZVelocity": "800",
+      "Tribe": "FeatherOstrich",
+      "BPClass": "FeatherOstrich",
+      "ZukanIndex": "123",
+      "ElementType1": "Earth",
+      "GenusCategory": "Other",
+      "EnemyMaxHPRate": "1",
+      "EnemyReceiveDamageRate": "1",
+      "EnemyInflictDamageRate": "1",
+      "ExpRatio": "1",
+      "StatusResistUpRate": "1",
+      "AIResponse": "Escape_to_Battle",
+      "BattleBGM": "Cool",
+      "FullStomachDecreaseRate": "1",
+      "FoodAmount": "4",
+      "ViewingDistance": "25",
+      "ViewingAngle": "90",
+      "HearingRate": "1",
+      "BiologicalGrade": "3",
+      "Stamina": "100"
+  }
+]

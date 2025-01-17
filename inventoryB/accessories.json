@@ -1,0 +1,1594 @@
+[
+  {
+    "id": 1,
+    "name": "Life Pendant",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises Health.\r\nHealth Up Lv. 1",
+    "effects": [
+      "Health Up Lv. 1"
+    ],
+    "image": "../assets/images/items/life-pendant.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HP_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 3,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HP_1",
+      "IconName": "Accessory_HP",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2000,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "HP_ACC_up1"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Life Pendant +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that raises Health.\r\nHealth Up Lv. 2",
+    "effects": [
+      "Health Up Lv. 2"
+    ],
+    "image": "../assets/images/items/life-pendant-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HP_1.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 4,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HP_2",
+      "IconName": "Accessory_HP",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2001,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "HP_ACC_up2"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Life Pendant +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises Health.\r\nHealth Up Lv. 3",
+    "effects": [
+      "Health Up Lv. 3"
+    ],
+    "image": "../assets/images/items/life-pendant-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HP_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 5,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HP_3",
+      "IconName": "Accessory_HP",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2002,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "HP_ACC_up3"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Attack Pendant",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises Attack.\r\nAttack Up Lv. 1",
+    "effects": [
+      "Attack Up Lv. 1"
+    ],
+    "image": "../assets/images/items/attack-pendant.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AT_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 3,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AT_1",
+      "IconName": "Accessory_AT",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2010,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "Attack_ACC_up1"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Attack Pendant +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that raises Attack.\r\nAttack Up Lv. 2",
+    "effects": [
+      "Attack Up Lv. 2"
+    ],
+    "image": "../assets/images/items/attack-pendant-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AT_1.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 4,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AT_2",
+      "IconName": "Accessory_AT",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2011,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "Attack_ACC_up2"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Attack Pendant +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises Attack.\r\nAttack Up Lv. 3",
+    "effects": [
+      "Attack Up Lv. 3"
+    ],
+    "image": "../assets/images/items/attack-pendant-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AT_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 5,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AT_3",
+      "IconName": "Accessory_AT",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2012,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "Attack_ACC_up3"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Defense Pendant",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises Defense.\r\nDefense Up Lv. 1",
+    "effects": [
+      "Defense Up Lv. 1"
+    ],
+    "image": "../assets/images/items/defense-pendant.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_defense_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 3,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_defense_1",
+      "IconName": "Accessory_defense",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2020,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "defense_ACC_up1"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Defense Pendant +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that raises Defense.\r\nDefense Up Lv. 2",
+    "effects": [
+      "Defense Up Lv. 2"
+    ],
+    "image": "../assets/images/items/defense-pendant-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_defense_1.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 4,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_defense_2",
+      "IconName": "Accessory_defense",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2021,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "defense_ACC_up2"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Defense Pendant +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises Defense.\r\nDefense Up Lv. 3",
+    "effects": [
+      "Defense Up Lv. 3"
+    ],
+    "image": "../assets/images/items/defense-pendant-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_defense_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 5,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_defense_3",
+      "IconName": "Accessory_defense",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2022,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "defense_ACC_up3"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Pendant of Diligence",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises Work Speed.\r\nSpeedy Worker Lv. 1",
+    "effects": [
+      "Speedy Worker Lv. 1"
+    ],
+    "image": "../assets/images/items/pendant-of-diligence.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_WorkSpeed_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 3,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_WorkSpeed_1",
+      "IconName": "Accessory_WorkSpeed",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2030,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "WorkSpeed_ACC_up1"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Pendant of Diligence +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that raises Work Speed.\r\nSpeedy Worker Lv. 2",
+    "effects": [
+      "Speedy Worker Lv. 2"
+    ],
+    "image": "../assets/images/items/pendant-of-diligence-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_WorkSpeed_1.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 4,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_WorkSpeed_2",
+      "IconName": "Accessory_WorkSpeed",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2031,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "WorkSpeed_ACC_up2"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Pendant of Diligence +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises Work Speed.\r\nSpeedy Worker Lv. 3",
+    "effects": [
+      "Speedy Worker Lv. 3"
+    ],
+    "image": "../assets/images/items/pendant-of-diligence-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_WorkSpeed_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 5,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_WorkSpeed_3",
+      "IconName": "Accessory_WorkSpeed",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2032,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "WorkSpeed_ACC_up3"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Heat Resistant Undershirt",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises Heat Resistance.\r\nHeat Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 1"
+    ],
+    "image": "../assets/images/items/heat-resistant-undershirt.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_CoolResist_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HeatResist_1",
+      "IconName": "Accessory_HeatResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2040,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Heat1"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Heat Resistant Undershirt +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises Heat Resistance.\r\nHeat Resistant Lv. 3",
+    "effects": [
+      "Heat Resistant Lv. 3"
+    ],
+    "image": "../assets/images/items/heat-resistant-undershirt-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_CoolResist_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 15000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HeatResist_3",
+      "IconName": "Accessory_HeatResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2042,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Heat3"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Thermal Undershirt",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises Cold Resistance.\r\nCold Resistant Lv. 1",
+    "effects": [
+      "Cold Resistant Lv. 1"
+    ],
+    "image": "../assets/images/items/thermal-undershirt.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatResist_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_CoolResist_1",
+      "IconName": "Accessory_CoolResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2050,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Cold1"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Thermal Undershirt +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that raises Cold Resistance.\r\nCold Resistant Lv. 2",
+    "effects": [
+      "Cold Resistant Lv. 2"
+    ],
+    "image": "../assets/images/items/thermal-undershirt-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatResist_1.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_CoolResist_2",
+      "IconName": "Accessory_CoolResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2051,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Cold2"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Thermal Undershirt +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises Cold Resistance.\r\nCold Resistant Lv. 3",
+    "effects": [
+      "Cold Resistant Lv. 3"
+    ],
+    "image": "../assets/images/items/thermal-undershirt-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatResist_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 15000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_CoolResist_3",
+      "IconName": "Accessory_CoolResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2052,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Cold3"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Ring of Neutral Resistance",
+    "rarity": "Common",
+    "description": "Accessory that slightly lowers Neutral damage.Neutral Damage Reduction Lv. 1",
+    "effects": [
+      "Neutral Damage Reduction Lv. 1"
+    ],
+    "image": "../assets/images/items/ring-of-neutral-resistance.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_NormalResist_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 1000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_NormalResist_1",
+      "IconName": "Accessory_NormalResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2060,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Normal_1"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Ring of Neutral Resistance +1",
+    "rarity": "Uncommon",
+    "description": "Accessory that lowers Neutral damage.Neutral Damage Reduction Lv. 2",
+    "effects": [
+      "Neutral Damage Reduction Lv. 2"
+    ],
+    "image": "../assets/images/items/ring-of-neutral-resistance-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_NormalResist_1.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_NormalResist_2",
+      "IconName": "Accessory_NormalResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2061,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Normal_2"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Ring of Neutral Resistance +2",
+    "rarity": "Rare",
+    "description": "Accessory that greatly lowers Neutral damage.Neutral Damage Reduction Lv. 3",
+    "effects": [
+      "Neutral Damage Reduction Lv. 3"
+    ],
+    "image": "../assets/images/items/ring-of-neutral-resistance-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_NormalResist_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_NormalResist_3",
+      "IconName": "Accessory_NormalResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2062,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Normal_3"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Ring of Fire Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Fire damage.\r\nFire Damage Reduction Lv. 1",
+    "effects": [
+      "Fire Damage Reduction Lv. 1"
+    ],
+    "image": "../assets/images/items/ring-of-fire-resistance.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_FireResist_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_FireResist_1",
+      "IconName": "Accessory_FireResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2070,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Fire_1"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Ring of Fire Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Fire damage.\r\nFire Damage Reduction Lv. 2",
+    "effects": [
+      "Fire Damage Reduction Lv. 2"
+    ],
+    "image": "../assets/images/items/ring-of-fire-resistance-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_FireResist_1.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_FireResist_2",
+      "IconName": "Accessory_FireResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2071,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Fire_2"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Ring of Fire Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Fire damage.\r\nFire Damage Reduction Lv. 3",
+    "effects": [
+      "Fire Damage Reduction Lv. 3"
+    ],
+    "image": "../assets/images/items/ring-of-fire-resistance-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_FireResist_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_FireResist_3",
+      "IconName": "Accessory_FireResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2072,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Fire_3"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Ring of Water Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Water damage.\r\nWater Damage Reduction Lv. 1",
+    "effects": [
+      "Water Damage Reduction Lv. 1"
+    ],
+    "image": "../assets/images/items/ring-of-water-resistance.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AquaResist_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AquaResist_1",
+      "IconName": "Accessory_AquaResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2080,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Aqua_1"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Ring of Water Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Water damage.\r\nWater Damage Reduction Lv. 2",
+    "effects": [
+      "Water Damage Reduction Lv. 2"
+    ],
+    "image": "../assets/images/items/ring-of-water-resistance-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AquaResist_1.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AquaResist_2",
+      "IconName": "Accessory_AquaResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2081,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Aqua_2"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Ring of Water Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Water damage.\r\nWater Damage Reduction Lv. 3",
+    "effects": [
+      "Water Damage Reduction Lv. 3"
+    ],
+    "image": "../assets/images/items/ring-of-water-resistance-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AquaResist_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AquaResist_3",
+      "IconName": "Accessory_AquaResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2082,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Aqua_3"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Ring of Lightning Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Electric damage.\r\nElectric Damage Reduction Lv. 1",
+    "effects": [
+      "Electric Damage Reduction Lv. 1"
+    ],
+    "image": "../assets/images/items/ring-of-lightning-resistance.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_ThunderResist_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_ThunderResist_1",
+      "IconName": "Accessory_ThunderResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2090,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Thunder_1"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Ring of Lightning Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Electric damage.\r\nElectric Damage Reduction Lv. 2",
+    "effects": [
+      "Electric Damage Reduction Lv. 2"
+    ],
+    "image": "../assets/images/items/ring-of-lightning-resistance-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_ThunderResist_1.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_ThunderResist_2",
+      "IconName": "Accessory_ThunderResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2091,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Thunder_2"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Ring of Lightning Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Electric damage.\r\nElectric Damage Reduction Lv. 3",
+    "effects": [
+      "Electric Damage Reduction Lv. 3"
+    ],
+    "image": "../assets/images/items/ring-of-lightning-resistance-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_ThunderResist_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_ThunderResist_3",
+      "IconName": "Accessory_ThunderResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2092,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Thunder_3"
+    }
+  },
+  {
+    "id": 30,
+    "name": "Ring of Grass Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Grass damage.\r\nGrass Damage Reduction Lv. 1",
+    "effects": [
+      "Grass Damage Reduction Lv. 1"
+    ],
+    "image": "../assets/images/items/ring-of-grass-resistance.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_LeafResist_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_LeafResist_1",
+      "IconName": "Accessory_LeafResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2100,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Leaf_1"
+    }
+  },
+  {
+    "id": 31,
+    "name": "Ring of Grass Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Grass damage.\r\nGrass Damage Reduction Lv. 2",
+    "effects": [
+      "Grass Damage Reduction Lv. 2"
+    ],
+    "image": "../assets/images/items/ring-of-grass-resistance-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_LeafResist_1.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_LeafResist_2",
+      "IconName": "Accessory_LeafResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2101,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Leaf_2"
+    }
+  },
+  {
+    "id": 32,
+    "name": "Ring of Grass Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Grass damage.\r\nGrass Damage Reduction Lv. 3",
+    "effects": [
+      "Grass Damage Reduction Lv. 3"
+    ],
+    "image": "../assets/images/items/ring-of-grass-resistance-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_LeafResist_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_LeafResist_3",
+      "IconName": "Accessory_LeafResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2102,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Leaf_3"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Ring of Ice Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Ice damage.\r\nIce Damage Reduction Lv. 1",
+    "effects": [
+      "Ice Damage Reduction Lv. 1"
+    ],
+    "image": "../assets/images/items/ring-of-ice-resistance.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_IceResist_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_IceResist_1",
+      "IconName": "Accessory_IceResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2110,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Ice_1"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Ring of Ice Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Ice damage.\r\nIce Damage Reduction Lv. 2",
+    "effects": [
+      "Ice Damage Reduction Lv. 2"
+    ],
+    "image": "../assets/images/items/ring-of-ice-resistance-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_IceResist_1.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_IceResist_2",
+      "IconName": "Accessory_IceResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2111,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Ice_2"
+    }
+  },
+  {
+    "id": 35,
+    "name": "Ring of Ice Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Ice damage.\r\nIce Damage Reduction Lv. 3",
+    "effects": [
+      "Ice Damage Reduction Lv. 3"
+    ],
+    "image": "../assets/images/items/ring-of-ice-resistance-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_IceResist_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_IceResist_3",
+      "IconName": "Accessory_IceResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2112,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Ice_3"
+    }
+  },
+  {
+    "id": 36,
+    "name": "Ring of Earth Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Earth damage.\r\nEarth Damage Reduction Lv. 1",
+    "effects": [
+      "Earth Damage Reduction Lv. 1"
+    ],
+    "image": "../assets/images/items/ring-of-earth-resistance.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_EarthResist_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_EarthResist_1",
+      "IconName": "Accessory_EarthResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2120,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Earth_1"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Ring of Earth Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Earth damage.\r\nEarth Damage Reduction Lv. 2",
+    "effects": [
+      "Earth Damage Reduction Lv. 2"
+    ],
+    "image": "../assets/images/items/ring-of-earth-resistance-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_EarthResist_1.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_EarthResist_2",
+      "IconName": "Accessory_EarthResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2121,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Earth_2"
+    }
+  },
+  {
+    "id": 38,
+    "name": "Ring of Earth Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Earth damage.\r\nEarth Damage Reduction Lv. 3",
+    "effects": [
+      "Earth Damage Reduction Lv. 3"
+    ],
+    "image": "../assets/images/items/ring-of-earth-resistance-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_EarthResist_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_EarthResist_3",
+      "IconName": "Accessory_EarthResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2122,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Earth_3"
+    }
+  },
+  {
+    "id": 39,
+    "name": "Ring of Dark Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Dark damage.\r\nDark Damage Reduction Lv. 1",
+    "effects": [
+      "Dark Damage Reduction Lv. 1"
+    ],
+    "image": "../assets/images/items/ring-of-dark-resistance.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DarkResist_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_DarkResist_1",
+      "IconName": "Accessory_DarkResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2130,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Dark_1"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Ring of Dark Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Dark damage.\r\nDark Damage Reduction Lv. 2",
+    "effects": [
+      "Dark Damage Reduction Lv. 2"
+    ],
+    "image": "../assets/images/items/ring-of-dark-resistance-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DarkResist_1.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_DarkResist_2",
+      "IconName": "Accessory_DarkResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2131,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Dark_2"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Ring of Dark Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Dark damage.\r\nDark Damage Reduction Lv. 3",
+    "effects": [
+      "Dark Damage Reduction Lv. 3"
+    ],
+    "image": "../assets/images/items/ring-of-dark-resistance-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DarkResist_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_DarkResist_3",
+      "IconName": "Accessory_DarkResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2132,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Dark_3"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Ring of Dragon Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Dragon damage.\r\nDragon Damage Reduction Lv. 1",
+    "effects": [
+      "Dragon Damage Reduction Lv. 1"
+    ],
+    "image": "../assets/images/items/ring-of-dragon-resistance.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DragonResist_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_DragonResist_1",
+      "IconName": "Accessory_DragonResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2140,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Dragon_1"
+    }
+  },
+  {
+    "id": 43,
+    "name": "Ring of Dragon Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Dragon damage.\r\nDragon Damage Reduction Lv. 2",
+    "effects": [
+      "Dragon Damage Reduction Lv. 2"
+    ],
+    "image": "../assets/images/items/ring-of-dragon-resistance-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DragonResist_1.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_DragonResist_2",
+      "IconName": "Accessory_DragonResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2141,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Dragon_2"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Ring of Dragon Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Dragon damage.\r\nDragon Damage Reduction Lv. 3",
+    "effects": [
+      "Dragon Damage Reduction Lv. 3"
+    ],
+    "image": "../assets/images/items/ring-of-dragon-resistance-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DragonResist_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_DragonResist_3",
+      "IconName": "Accessory_DragonResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2142,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Dragon_3"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Ring of Mercy",
+    "rarity": "Rare",
+    "description": "Pacifist's ring.\r\nThe wearer's attacks will not reduce the target's Health below 1.Mercy Hit",
+    "effects": [
+      "Mercy Hit"
+    ],
+    "image": "../assets/images/items/ring-of-mercy.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_Nonkilling.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 2,
+      "Gold Coin": 30000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_Nonkilling",
+      "IconName": "Accessory_Nonkilling",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2143,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "NonKilling"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Ability Glasses",
+    "rarity": "Rare",
+    "description": "Glasses used to discern hidden Pal abilities.\r\nDisplays Health, Attack and Defense stats on a scale of 0 to 100.",
+    "effects": [],
+    "image": "../assets/images/items/ability-glasses.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_TalentChecker.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 2,
+      "Gold Coin": 5000,
+      "Weight": 1,
+      "MaxStackCount": 1,
+      "Code": "Accessory_TalentChecker",
+      "IconName": "Accessory_TalentChecker",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2144,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor"
+    }
+  },
+  {
+    "id": 47,
+    "name": "Multiclimate Undershirt",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises Heat and Cold Resistance.\r\nHeat Resistant Lv. 1 / Cold Resistant Lv. 1",
+    "effects": [
+      "Heat Resistant Lv. 1 / Cold Resistant Lv. 1"
+    ],
+    "image": "../assets/images/items/multiclimate-undershirt.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatColdResist_1.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 30000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HeatColdResist_1",
+      "IconName": "Accessory_HeatColdResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2046,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Heat1Cold1"
+    }
+  },
+  {
+    "id": 48,
+    "name": "Multiclimate Undershirt +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that raises Heat and Cold Resistance.\r\nHeat Resistant Lv. 2 / Cold Resistant Lv. 2",
+    "effects": [
+      "Heat Resistant Lv. 2 / Cold Resistant Lv. 2"
+    ],
+    "image": "../assets/images/items/multiclimate-undershirt-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatColdResist_1.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 50000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HeatColdResist_2",
+      "IconName": "Accessory_HeatColdResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2047,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Heat2Cold2"
+    }
+  },
+  {
+    "id": 49,
+    "name": "Multiclimate Undershirt +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises Heat and Cold Resistance.\r\nHeat Resistant Lv. 3 / Cold Resistant Lv. 3",
+    "effects": [
+      "Heat Resistant Lv. 3 / Cold Resistant Lv. 3"
+    ],
+    "image": "../assets/images/items/multiclimate-undershirt-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatColdResist_1.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 100000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HeatColdResist_3",
+      "IconName": "Accessory_HeatColdResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2048,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Heat3Cold3"
+    }
+  },
+  {
+    "id": 50,
+    "name": "Ring of Freight",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises carrying capacity.\r\nMax Carrying Capacity Lv. 1",
+    "effects": [
+      "Max Carrying Capacity Lv. 1"
+    ],
+    "image": "../assets/images/items/ring-of-freight.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_MaxWeightUp.webp",
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 1000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_MaxWeightUp_01",
+      "IconName": "Accessory_MaxWeightUp",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2145,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "MaxInventoryWeight_up_Equip_1"
+    }
+  },
+  {
+    "id": 51,
+    "name": "Ring of Freight +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that raises carrying capacity.\r\nMax Carrying Capacity Lv. 2",
+    "effects": [
+      "Max Carrying Capacity Lv. 2"
+    ],
+    "image": "../assets/images/items/ring-of-freight-+1.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_MaxWeightUp.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_MaxWeightUp_02",
+      "IconName": "Accessory_MaxWeightUp",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2146,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "MaxInventoryWeight_up_Equip_2"
+    }
+  },
+  {
+    "id": 52,
+    "name": "Ring of Freight +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises carrying capacity.\r\nMax Carrying Capacity Lv. 3",
+    "effects": [
+      "Max Carrying Capacity Lv. 3"
+    ],
+    "image": "../assets/images/items/ring-of-freight-+2.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_MaxWeightUp.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_MaxWeightUp_03",
+      "IconName": "Accessory_MaxWeightUp",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2147,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "MaxInventoryWeight_up_Equip_3"
+    }
+  },
+  {
+    "id": 53,
+    "name": "Anti-Gravity Belt",
+    "rarity": "Uncommon",
+    "description": "An accessory that increases the player's jump power when equipped.Jump Power Boost",
+    "effects": [
+      "Jump Power Boost"
+    ],
+    "image": "../assets/images/items/anti-gravity-belt.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpPower_Increase.webp",
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 2,
+      "Gold Coin": 30000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_JumpPower_Increase",
+      "IconName": "Accessory_JumpPower_Increase",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2148,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "JumpPower_Increase"
+    }
+  },
+  {
+    "id": 54,
+    "name": "Double Jump Boots",
+    "rarity": "Rare",
+    "description": "An accessory that allows the player to jump in mid-air when equipped.Jump Count Increase +1",
+    "effects": [
+      "Jump Count Increase +1"
+    ],
+    "image": "../assets/images/items/double-jump-boots.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpCount_Increase.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 2,
+      "Gold Coin": 30000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_JumpCount_Increase1",
+      "IconName": "Accessory_JumpCount_Increase1",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2149,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "JumpCount_Increase1"
+    }
+  },
+  {
+    "id": 55,
+    "name": "Triple Jump Boots",
+    "rarity": "Epic",
+    "description": "An accessory that allows the player to perform double jumps in mid-air when equipped.Jump Count Increase +2",
+    "effects": [
+      "Jump Count Increase +2"
+    ],
+    "image": "../assets/images/items/triple-jump-boots.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpCount_Increase.webp",
+    "stats": {
+      "Rarity": "Epic",
+      "Type": "Accessory",
+      "Rank": 3,
+      "Gold Coin": 30000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_JumpCount_Increase2",
+      "IconName": "Accessory_JumpCount_Increase2",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2150,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "JumpCount_Increase2"
+    }
+  },
+  {
+    "id": 56,
+    "name": "Air Dash Boots",
+    "rarity": "Rare",
+    "description": "An accessory that allows the player to dash in mid-air when equipped.Aerial Dash +1",
+    "effects": [
+      "Aerial Dash +1"
+    ],
+    "image": "../assets/images/items/air-dash-boots.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp",
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 2,
+      "Gold Coin": 30000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AirDash1",
+      "IconName": "Accessory_AirDash1",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2152,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "AirDash_1"
+    }
+  },
+  {
+    "id": 57,
+    "name": "Double Air Dash Boots",
+    "rarity": "Epic",
+    "description": "An accessory that allows the player to perform double dashes in mid-air when equipped.|Aerial Dash +2",
+    "effects": [
+      "Aerial Dash +2"
+    ],
+    "image": "../assets/images/items/double-air-dash-boots.png",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp",
+    "stats": {
+      "Rarity": "Epic",
+      "Type": "Accessory",
+      "Rank": 3,
+      "Gold Coin": 30000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AirDash2",
+      "IconName": "Accessory_AirDash2",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2153,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "AirDash_2"
+    }
+  }
+]
