@@ -5,21 +5,25 @@
     "rarity": "Common",
     "description": "An item that captures Pals when thrown.\r\nThis basic model is only effective on low level Pals.",
     "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/pal-sphere.png",
     "recipe": [
       {
         "name": "Paldium Fragment",
         "quantity": 1,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png"
       },
       {
         "name": "Wood",
         "quantity": 3,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png"
       },
       {
         "name": "Stone",
         "quantity": 3,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png"
       }
     ],
     "stats": {
@@ -49,26 +53,31 @@
     "rarity": "Common",
     "description": "An item that captures Pals when thrown.\r\nIts capabilities have been improved, allowing it to catch a wider range of Pals.",
     "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Mega.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/mega-sphere.png",
     "recipe": [
       {
         "name": "Paldium Fragment",
         "quantity": 1,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png"
       },
       {
         "name": "Ingot",
         "quantity": 1,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png"
       },
       {
         "name": "Wood",
         "quantity": 5,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png"
       },
       {
         "name": "Stone",
         "quantity": 5,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png"
       }
     ],
     "stats": {
@@ -98,26 +107,31 @@
     "rarity": "Uncommon",
     "description": "An item that captures Pals when thrown.\r\nAble to capture moderately powerful Pals.",
     "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Giga.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/giga-sphere.png",
     "recipe": [
       {
         "name": "Paldium Fragment",
         "quantity": 2,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png"
       },
       {
         "name": "Ingot",
         "quantity": 2,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png"
       },
       {
         "name": "Wood",
         "quantity": 7,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png"
       },
       {
         "name": "Stone",
         "quantity": 7,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Stone.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/stone.png"
       }
     ],
     "stats": {
@@ -147,26 +161,31 @@
     "rarity": "Rare",
     "description": "An item that captures Pals when thrown.\r\nEnhanced capabilities allow it to capture even more powerful Pals.",
     "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Tera.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/hyper-sphere.png",
     "recipe": [
       {
         "name": "Paldium Fragment",
         "quantity": 3,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png"
       },
       {
         "name": "Ingot",
         "quantity": 3,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png"
       },
       {
         "name": "Wood",
         "quantity": 10,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Wood.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/wood.png"
       },
       {
         "name": "Cement",
         "quantity": 2,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cement.png"
       }
     ],
     "stats": {
@@ -196,26 +215,31 @@
     "rarity": "Epic",
     "description": "An item that captures Pals when thrown.\r\nNot many Pals can escape its highly efficient design.",
     "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Master.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/ultra-sphere.png",
     "recipe": [
       {
         "name": "Paldium Fragment",
         "quantity": 5,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png"
       },
       {
         "name": "Refined Ingot",
         "quantity": 5,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png"
       },
       {
         "name": "Carbon Fiber",
         "quantity": 2,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png"
       },
       {
         "name": "Cement",
         "quantity": 3,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cement.png"
       }
     ],
     "stats": {
@@ -245,26 +269,31 @@
     "rarity": "Legendary",
     "description": "An item that captures Pals when thrown.\r\nVery few Pals can escape its perfected design.",
     "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Legend.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/legendary-sphere.png",
     "recipe": [
       {
         "name": "Paldium Fragment",
         "quantity": 10,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png"
       },
       {
         "name": "Pal Metal Ingot",
         "quantity": 5,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png"
       },
       {
         "name": "Carbon Fiber",
         "quantity": 3,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png"
       },
       {
         "name": "Cement",
         "quantity": 5,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/cement.png"
       }
     ],
     "stats": {
@@ -294,26 +323,31 @@
     "rarity": "Legendary",
     "description": "An item that captures Pals when thrown.\r\nAlmost no Pals can escape its flawless design.",
     "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Ultimate.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/ultimate-sphere.png",
     "recipe": [
       {
         "name": "Paldium Fragment",
         "quantity": 20,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png"
       },
       {
         "name": "Pal Metal Ingot",
         "quantity": 10,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StealIngot.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/pal-metal-ingot.png"
       },
       {
         "name": "Carbon Fiber",
         "quantity": 5,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png"
       },
       {
         "name": "Plasteel",
         "quantity": 1,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png"
       }
     ],
     "stats": {
@@ -343,26 +377,31 @@
     "rarity": "Legendary",
     "description": "An item that captures Pals when thrown.\r\nBoasting incredible performance, it can capture Pals that fall outside regular standards.",
     "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Exotic.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/spheres/exotic-sphere.png",
     "recipe": [
       {
         "name": "Paldium Fragment",
         "quantity": 30,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png"
       },
       {
         "name": "Plasteel",
         "quantity": 2,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png"
       },
       {
         "name": "Carbon Fiber",
         "quantity": 7,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/carbon-fiber.png"
       },
       {
         "name": "Hexolite",
         "quantity": 1,
-        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp"
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png"
       }
     ],
     "stats": {

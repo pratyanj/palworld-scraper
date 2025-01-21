@@ -7,6 +7,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from playwright.sync_api import sync_playwright
 from PIL import Image
+import httpx
 
 def download_image(image_url, save_path):
     download_path = os.path.join(os.getcwd(), "images", f"{save_path}.png")
@@ -105,6 +106,7 @@ class PalDetails:
         image_name = item['name'].replace(" ", "-").lower()
         # item['image'] = f"../assets/images/{item_type}/{image_name}.png"
         item['image_url'] = img_element['src'] if img_element else ''
+        item['image_github_url'] = f"https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/{item_type}/{image_name}.png"
         print("Image URL:", item['image_url'])
         if item['image_url']:
             if img:
@@ -130,6 +132,8 @@ class PalDetails:
                 recipe_item['quantity'] = int(item_quantity.text) if item_quantity else ''
                 # recipe_item['image'] = f"../assets/images/items/{recipe_item['name'].replace(' ', '-').lower()}.png"
                 recipe_item['image_url'] = recipe_img['src'] if recipe_img else ''
+                image_name1 = recipe_item['name'].replace(" ", "-").lower()
+                recipe_item['image_github_url'] = f"https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/{image_name1}.png"
                 recipe_items.append(recipe_item)
             item['recipe'] = recipe_items
         print("Recipe:", item['recipe'])
