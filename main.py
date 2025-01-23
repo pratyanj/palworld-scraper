@@ -100,14 +100,14 @@ class PalDetails:
         # Description
         desc_element = card.find('div', class_='card-body')
         item['description'] = desc_element.text.strip() if desc_element else ''
-        print("Description:", item['description'])
+        # print("Description:", item['description'])
         # Image
         img_element = card.find('img', loading='lazy')
         image_name = item['name'].replace(" ", "-").lower()
         # item['image'] = f"../assets/images/{item_type}/{image_name}.png"
         item['image_url'] = img_element['src'] if img_element else ''
         item['image_github_url'] = f"https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/{item_type}/{image_name}.png"
-        print("Image URL:", item['image_url'])
+        # print("Image URL:", item['image_url'])
         if item['image_url']:
             if img:
                 self.playwrite(item['image_url'], image_name)
@@ -136,7 +136,7 @@ class PalDetails:
                 recipe_item['image_github_url'] = f"https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/{image_name1}.png"
                 recipe_items.append(recipe_item)
             item['recipe'] = recipe_items
-        print("Recipe:", item['recipe'])
+        # print("Recipe:", item['recipe'])
        
         sts = self.stats(item['name'].replace(' ', '_'),page=item_type,rarity=item['rarity'])
             
@@ -146,7 +146,7 @@ class PalDetails:
 
     def stats(self, item_name: str, page: str, rarity: str = "Common"):
         try:
-            url = f'https://paldb.cc/en/{item_name.replace("+","%2B")}'
+            url = f'https://paldb.cc/en/{item_name.replace("+","%2B").replace("'s",'_')}'
             print(url)
         
             try:
@@ -165,19 +165,45 @@ class PalDetails:
             # print(f"Soup: {soup}")
             stats = {}
             print(f"Item Name: {item_name}")
+            stat_rows_main = soup.select("div.card-body div.d-flex.justify-content-between.p-2")
             if "Shield" in item_name:
                 stat_rows = soup.find("div.card-body div.d-flex.justify-content-between.p-2")
             elif page in ['weapons', 'armors']:
                 if rarity == "Common":
-                    stat_rows = soup.find("div#Items div.card-body div.d-flex.justify-content-between.p-2")
+                    if soup.select_one('div#Items'):
+                        print('find div#Items')
+                        stat_rows = soup.select("div#Items div.card-body div.d-flex.justify-content-between.p-2")
+                    else:
+                        print('could not find div#Items')
+                        stat_rows = stat_rows_main
                 elif rarity == "Uncommon":
-                    stat_rows = soup.select( "div#Items-1 div.card-body div.d-flex.justify-content-between.p-2")
+                    if soup.select_one('div#Items-1'):
+                        print('find div#Items-1')
+                        stat_rows = soup.select("div#Items-1 div.card-body div.d-flex.justify-content-between.p-2")
+                    else:
+                        print('could not find div#Items-1')
+                        stat_rows = stat_rows_main
                 elif rarity == "Rare":
-                    stat_rows = soup.select("div#Items-2 div.card-body div.d-flex.justify-content-between.p-2")
+                    if soup.select_one('div#Items-2'):
+                        print('find div#Items-2')
+                        stat_rows = soup.select("div#Items-2 div.card-body div.d-flex.justify-content-between.p-2")
+                    else:
+                        print('could not find div#Items-2')
+                        stat_rows = stat_rows_main
                 elif rarity == "Epic":
-                    stat_rows = soup.select("div#Items-3 div.card-body div.d-flex.justify-content-between.p-2")
+                    if soup.select_one('div#Items-3'):
+                        print('find div#Items-3')
+                        stat_rows = soup.select("div#Items-3 div.card-body div.d-flex.justify-content-between.p-2")
+                    else:
+                        print('could not find div#Items-3')
+                        stat_rows = stat_rows_main
                 elif rarity == "Legendary":
-                    stat_rows = soup.select("div#Items-4 div.card-body div.d-flex.justify-content-between.p-2")
+                    if soup.select_one('div#Items-4'):
+                        print('find div#Items-4')
+                        stat_rows = soup.select("div#Items-4 div.card-body div.d-flex.justify-content-between.p-2")
+                    else:
+                        print('could not find div#Items-4')
+                        stat_rows = stat_rows_main
                 
             # Get all stat rows from the card
             
@@ -281,6 +307,20 @@ class PalDetails:
             if tech_element:
                 tech_value = tech_element.find_next('span', class_='border')
                 sphere_module['technology'] = int(tech_value.text) if tech_value else ''
+            # Extract description and effects
+            desc_element = card.find('div', class_='card-body')
+            if desc_element:
+                description = ''
+                for content in desc_element.contents:
+                    if isinstance(content, str):
+                        description += content.strip()
+                    elif content.name == 'div' and 'item_skill_bar' in content.get('class', []):
+                        break
+            
+                sphere_module['description'] = description.strip()
+                print(":--------",sphere_module['description'])
+                effects = desc_element.find_all('div', class_='item_skill_bar')
+                sphere_module['effects'] = [effect.text.strip() for effect in effects]
         return self.process_items('https://paldb.cc/en/Sphere_Module', 'sphere_modules', 'sphere_modules.json',img ,process_sphere_module)
 
     def get_armor(self,img):
