@@ -3,6 +3,7 @@ import threading
 from tkinter import messagebox
 import pandas as pd
 from main import PalDetails
+import json
 
 class PalWorldGUI:
     def __init__(self):
@@ -15,9 +16,24 @@ class PalWorldGUI:
         # Set theme and colors
         ctk.set_appearance_mode("dark")
         ctk.set_default_color_theme("blue")
-        
-        # Create main container with grid layout
-        self.container = ctk.CTkFrame(self.window)
+
+        # Create TabView
+        self.tabview = ctk.CTkTabview(self.window)
+        self.tabview.pack(pady=10, padx=10, fill="both", expand=True)
+
+        # Create tabs
+        self.tab1 = self.tabview.add("Data Collector")
+        self.tab2 = self.tabview.add("Custom Extractor")
+
+        # Tab 1 - Original Content
+        self.setup_collector_tab()
+
+        # Tab 2 - Custom Extractor
+        self.setup_extractor_tab()
+
+    def setup_collector_tab(self):
+        # Move original container content here
+        self.container = ctk.CTkFrame(self.tab1)
         self.container.pack(pady=20, padx=20, fill="both", expand=True)
         
         # Header section
@@ -119,6 +135,114 @@ class PalWorldGUI:
         self.stats_label.pack(pady=5)
         
         self.pal_details = PalDetails()
+
+    def setup_extractor_tab(self):
+        extractor_frame = ctk.CTkFrame(self.tab2)
+        extractor_frame.pack(pady=20, padx=20, fill="both", expand=True)
+
+        # Item Type Dropdown
+        self.item_type_label = ctk.CTkLabel(
+            extractor_frame,
+            text="Select Item Type:",
+            font=("Roboto", 14)
+        )
+        self.item_type_label.pack(pady=10)
+
+        self.item_types = [
+            "Weapons",
+            "Spheres",
+            "Sphere Modules",
+            "Armor",
+            "Accessories",
+            "Consumables",
+            "Ammo",
+            "Ingredients",
+            "Productions"
+        ]
+
+        self.item_type_var = ctk.StringVar(value=self.item_types[3])
+        self.item_type_dropdown = ctk.CTkOptionMenu(
+            extractor_frame,
+            values=self.item_types,
+            variable=self.item_type_var,
+            width=200,
+            font=("Roboto", 12)
+        )
+        self.item_type_dropdown.pack(pady=10)
+        
+        self.rarity_label = ctk.CTkLabel(
+            extractor_frame,
+            text="Select Rarity:",
+            font=("Roboto", 14)
+        )
+        self.rarity_label.pack(pady=10)
+        
+        self.raritys = ["Common", "Uncommon", "Rare", "Epic", "Legendary"]
+        self.rarity_var = ctk.StringVar(value=self.raritys[4])
+        self.rarity_dropdown = ctk.CTkOptionMenu(
+            extractor_frame,
+            values=self.raritys,
+            variable=self.rarity_var,
+            width=200,
+            font=("Roboto", 12)
+        )
+
+        self.rarity_dropdown.pack(pady=10)
+        # URL Input
+        self.url_label = ctk.CTkLabel(
+            extractor_frame,
+            text="Enter Item name:",
+            font=("Roboto", 14)
+        )
+        self.url_label.pack(pady=10)
+
+        self.url_entry = ctk.CTkEntry(
+            extractor_frame,
+            width=400,
+            placeholder_text="Place item name here",
+        )
+        self.url_entry.pack(pady=10)
+
+
+        # Extract Button
+        self.extract_button = ctk.CTkButton(
+            extractor_frame,
+            text="Extract Item",
+            command=self.extract_custom_item,
+            width=200,
+            height=40,
+            font=("Roboto", 14),
+            corner_radius=10
+        )
+        self.extract_button.pack(pady=20)
+
+        # Results Display
+        self.results_text = ctk.CTkTextbox(
+            extractor_frame,
+            width=600,
+            height=400,
+            font=("Roboto", 16)
+        )
+        self.results_text.pack(pady=10)
+
+    def extract_custom_item(self):
+        item_type = self.item_type_var.get()
+        name = self.url_entry.get()
+        rarity=self.rarity_dropdown.get()
+
+        if not name:
+            messagebox.showwarning("Warning", "Please enter a URL")
+            return
+
+        try:
+            # Here you can implement the custom extraction logic
+            # using your existing PalDetails class methods
+            self.results_text.delete("1.0", "end")
+            data = self.pal_details.stats(name,item_type,rarity)
+            self.results_text.insert("1.0", json.dumps(data, indent=4))
+            # Add actual extraction logic here
+        except Exception as e:
+            self.results_text.insert("end", f"Error: {str(e)}\n")
         
     def show_loading(self, is_loading=True):
         if is_loading:
@@ -202,6 +326,7 @@ class PalWorldGUI:
         
     def run(self):
         self.window.mainloop()
+
 if __name__ == "__main__":
     app = PalWorldGUI()
     app.run()
