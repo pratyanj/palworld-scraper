@@ -138,7 +138,7 @@ class PalDetails:
             item['recipe'] = recipe_items
         # print("Recipe:", item['recipe'])
        
-        sts = self.stats(item['name'].replace(' ', '_'),page=item_type,rarity=item['rarity'])
+        sts = self.stats(item['name'],page=item_type,rarity=item['rarity'])
             
         if sts:
             item['stats'] = sts
@@ -146,7 +146,8 @@ class PalDetails:
 
     def stats(self, item_name: str, page: str, rarity: str = "Common"):
         try:
-            url = f'https://paldb.cc/en/{item_name.replace("+","%2B").replace("'s",'_')}'
+            
+            url = f'https://paldb.cc/en/{item_name.replace("+","%2B").replace(" ","_").replace("'",'%27').replace("(","%28").replace(")","%29")}'
             print(url)
         
             try:
@@ -166,9 +167,7 @@ class PalDetails:
             stats = {}
             print(f"Item Name: {item_name}")
             stat_rows_main = soup.select("div.card-body div.d-flex.justify-content-between.p-2")
-            if "Shield" in item_name:
-                stat_rows = soup.find("div.card-body div.d-flex.justify-content-between.p-2")
-            elif page in ['weapons', 'armors']:
+            if page in ['weapons', 'armors']:
                 if rarity == "Common":
                     if soup.select_one('div#Items'):
                         print('find div#Items')
@@ -219,7 +218,7 @@ class PalDetails:
                         value = int(row.select_one('div:last-child').text.strip())
                     except:
                         value = row.select_one('div:last-child').text.strip()
-                    
+                    # print(f" {name}: {value}")
                     # Check if the name is in the desired keys
                     if name in ['MeleeAttack', 'Attack', 'Defense','SortID','Health',"Gold Coin","Weight",
                                 "Durability",'Rarity',"MaxStackCount","SneakAttackRate","Rank",'Code','MagazineSize']:
@@ -526,3 +525,6 @@ class PalDetails:
 # Create GUI for data collection
 
 
+# if __name__ == "__main__":
+#     dl = PalDetails()
+#     dl.stats("Xenolord's head",'armors','Legendary')
