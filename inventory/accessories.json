@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1,
+    "name": "Life Pendant",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises Health.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HP_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HP_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 3,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HP_1",
+      "IconName": "Accessory_HP",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2000,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "HP_ACC_up1"
+    },
+    "effects": [
+      "Health Up Lv. 1"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Life Pendant +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that raises Health.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HP_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HP_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 4,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HP_2",
+      "IconName": "Accessory_HP",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2001,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "HP_ACC_up2"
+    },
+    "effects": [
+      "Health Up Lv. 2"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Life Pendant +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises Health.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HP_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HP_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 5,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HP_3",
+      "IconName": "Accessory_HP",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2002,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "HP_ACC_up3"
+    },
+    "effects": [
+      "Health Up Lv. 3"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Attack Pendant",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises Attack.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AT_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AT_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 3,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AT_1",
+      "IconName": "Accessory_AT",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2010,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "Attack_ACC_up1"
+    },
+    "effects": [
+      "Attack Up Lv. 1"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Attack Pendant +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that raises Attack.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AT_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AT_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 4,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AT_2",
+      "IconName": "Accessory_AT",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2011,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "Attack_ACC_up2"
+    },
+    "effects": [
+      "Attack Up Lv. 2"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Attack Pendant +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises Attack.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AT_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AT_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 5,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AT_3",
+      "IconName": "Accessory_AT",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2012,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "Attack_ACC_up3"
+    },
+    "effects": [
+      "Attack Up Lv. 3"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Defense Pendant",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises Defense.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_defense_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_defense_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 3,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_defense_1",
+      "IconName": "Accessory_defense",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2020,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "defense_ACC_up1"
+    },
+    "effects": [
+      "Defense Up Lv. 1"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Defense Pendant +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that raises Defense.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_defense_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_defense_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 4,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_defense_2",
+      "IconName": "Accessory_defense",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2021,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "defense_ACC_up2"
+    },
+    "effects": [
+      "Defense Up Lv. 2"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Defense Pendant +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises Defense.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_defense_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_defense_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 5,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_defense_3",
+      "IconName": "Accessory_defense",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2022,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "defense_ACC_up3"
+    },
+    "effects": [
+      "Defense Up Lv. 3"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Pendant of Diligence",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises Work Speed.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_WorkSpeed_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_WorkSpeed_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 3,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_WorkSpeed_1",
+      "IconName": "Accessory_WorkSpeed",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2030,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "WorkSpeed_ACC_up1"
+    },
+    "effects": [
+      "Speedy Worker Lv. 1"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Pendant of Diligence +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that raises Work Speed.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_WorkSpeed_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_WorkSpeed_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 4,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_WorkSpeed_2",
+      "IconName": "Accessory_WorkSpeed",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2031,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "WorkSpeed_ACC_up2"
+    },
+    "effects": [
+      "Speedy Worker Lv. 2"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Pendant of Diligence +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises Work Speed.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_WorkSpeed_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_WorkSpeed_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 5,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_WorkSpeed_3",
+      "IconName": "Accessory_WorkSpeed",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2032,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "WorkSpeed_ACC_up3"
+    },
+    "effects": [
+      "Speedy Worker Lv. 3"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Heat Resistant Undershirt",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises Heat Resistance.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_CoolResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_CoolResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HeatResist_1",
+      "IconName": "Accessory_HeatResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2040,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Heat1"
+    },
+    "effects": [
+      "Heat Resistant Lv. 1"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Heat Resistant Undershirt +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises Heat Resistance.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_CoolResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_CoolResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 15000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HeatResist_3",
+      "IconName": "Accessory_HeatResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2042,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Heat3"
+    },
+    "effects": [
+      "Heat Resistant Lv. 3"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Thermal Undershirt",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises Cold Resistance.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HeatResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_CoolResist_1",
+      "IconName": "Accessory_CoolResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2050,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Cold1"
+    },
+    "effects": [
+      "Cold Resistant Lv. 1"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Thermal Undershirt +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that raises Cold Resistance.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HeatResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_CoolResist_2",
+      "IconName": "Accessory_CoolResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2051,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Cold2"
+    },
+    "effects": [
+      "Cold Resistant Lv. 2"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Thermal Undershirt +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises Cold Resistance.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HeatResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 15000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_CoolResist_3",
+      "IconName": "Accessory_CoolResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2052,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Cold3"
+    },
+    "effects": [
+      "Cold Resistant Lv. 3"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Ring of Neutral Resistance",
+    "rarity": "Common",
+    "description": "Accessory that slightly lowers Neutral damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_NormalResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_NormalResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 1000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_NormalResist_1",
+      "IconName": "Accessory_NormalResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2060,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Normal_1"
+    },
+    "effects": [
+      "Neutral Damage Reduction Lv. 1"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Ring of Neutral Resistance +1",
+    "rarity": "Uncommon",
+    "description": "Accessory that lowers Neutral damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_NormalResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_NormalResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_NormalResist_2",
+      "IconName": "Accessory_NormalResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2061,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Normal_2"
+    },
+    "effects": [
+      "Neutral Damage Reduction Lv. 2"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Ring of Neutral Resistance +2",
+    "rarity": "Rare",
+    "description": "Accessory that greatly lowers Neutral damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_NormalResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_NormalResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_NormalResist_3",
+      "IconName": "Accessory_NormalResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2062,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Normal_3"
+    },
+    "effects": [
+      "Neutral Damage Reduction Lv. 3"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Ring of Fire Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Fire damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_FireResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_FireResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_FireResist_1",
+      "IconName": "Accessory_FireResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2070,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Fire_1"
+    },
+    "effects": [
+      "Fire Damage Reduction Lv. 1"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Ring of Fire Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Fire damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_FireResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_FireResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_FireResist_2",
+      "IconName": "Accessory_FireResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2071,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Fire_2"
+    },
+    "effects": [
+      "Fire Damage Reduction Lv. 2"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Ring of Fire Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Fire damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_FireResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_FireResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_FireResist_3",
+      "IconName": "Accessory_FireResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2072,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Fire_3"
+    },
+    "effects": [
+      "Fire Damage Reduction Lv. 3"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Ring of Water Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Water damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AquaResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AquaResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AquaResist_1",
+      "IconName": "Accessory_AquaResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2080,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Aqua_1"
+    },
+    "effects": [
+      "Water Damage Reduction Lv. 1"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Ring of Water Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Water damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AquaResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AquaResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AquaResist_2",
+      "IconName": "Accessory_AquaResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2081,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Aqua_2"
+    },
+    "effects": [
+      "Water Damage Reduction Lv. 2"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Ring of Water Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Water damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AquaResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AquaResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AquaResist_3",
+      "IconName": "Accessory_AquaResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2082,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Aqua_3"
+    },
+    "effects": [
+      "Water Damage Reduction Lv. 3"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Ring of Lightning Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Electric damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_ThunderResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_ThunderResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_ThunderResist_1",
+      "IconName": "Accessory_ThunderResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2090,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Thunder_1"
+    },
+    "effects": [
+      "Electric Damage Reduction Lv. 1"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Ring of Lightning Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Electric damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_ThunderResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_ThunderResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_ThunderResist_2",
+      "IconName": "Accessory_ThunderResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2091,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Thunder_2"
+    },
+    "effects": [
+      "Electric Damage Reduction Lv. 2"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Ring of Lightning Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Electric damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_ThunderResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_ThunderResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_ThunderResist_3",
+      "IconName": "Accessory_ThunderResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2092,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Thunder_3"
+    },
+    "effects": [
+      "Electric Damage Reduction Lv. 3"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Ring of Grass Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Grass damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_LeafResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_LeafResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_LeafResist_1",
+      "IconName": "Accessory_LeafResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2100,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Leaf_1"
+    },
+    "effects": [
+      "Grass Damage Reduction Lv. 1"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Ring of Grass Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Grass damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_LeafResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_LeafResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_LeafResist_2",
+      "IconName": "Accessory_LeafResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2101,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Leaf_2"
+    },
+    "effects": [
+      "Grass Damage Reduction Lv. 2"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Ring of Grass Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Grass damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_LeafResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_LeafResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_LeafResist_3",
+      "IconName": "Accessory_LeafResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2102,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Leaf_3"
+    },
+    "effects": [
+      "Grass Damage Reduction Lv. 3"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Ring of Ice Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Ice damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_IceResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_IceResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_IceResist_1",
+      "IconName": "Accessory_IceResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2110,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Ice_1"
+    },
+    "effects": [
+      "Ice Damage Reduction Lv. 1"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Ring of Ice Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Ice damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_IceResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_IceResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_IceResist_2",
+      "IconName": "Accessory_IceResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2111,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Ice_2"
+    },
+    "effects": [
+      "Ice Damage Reduction Lv. 2"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Ring of Ice Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Ice damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_IceResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_IceResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_IceResist_3",
+      "IconName": "Accessory_IceResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2112,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Ice_3"
+    },
+    "effects": [
+      "Ice Damage Reduction Lv. 3"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Ring of Earth Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Earth damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_EarthResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_EarthResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_EarthResist_1",
+      "IconName": "Accessory_EarthResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2120,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Earth_1"
+    },
+    "effects": [
+      "Earth Damage Reduction Lv. 1"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Ring of Earth Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Earth damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_EarthResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_EarthResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_EarthResist_2",
+      "IconName": "Accessory_EarthResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2121,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Earth_2"
+    },
+    "effects": [
+      "Earth Damage Reduction Lv. 2"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Ring of Earth Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Earth damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_EarthResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_EarthResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_EarthResist_3",
+      "IconName": "Accessory_EarthResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2122,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Earth_3"
+    },
+    "effects": [
+      "Earth Damage Reduction Lv. 3"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Ring of Dark Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Dark damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DarkResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_DarkResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_DarkResist_1",
+      "IconName": "Accessory_DarkResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2130,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Dark_1"
+    },
+    "effects": [
+      "Dark Damage Reduction Lv. 1"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Ring of Dark Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Dark damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DarkResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_DarkResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_DarkResist_2",
+      "IconName": "Accessory_DarkResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2131,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Dark_2"
+    },
+    "effects": [
+      "Dark Damage Reduction Lv. 2"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Ring of Dark Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Dark damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DarkResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_DarkResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_DarkResist_3",
+      "IconName": "Accessory_DarkResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2132,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Dark_3"
+    },
+    "effects": [
+      "Dark Damage Reduction Lv. 3"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Ring of Dragon Resistance",
+    "rarity": "Common",
+    "description": "An accessory that slightly lowers Dragon damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DragonResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_DragonResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_DragonResist_1",
+      "IconName": "Accessory_DragonResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2140,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Dragon_1"
+    },
+    "effects": [
+      "Dragon Damage Reduction Lv. 1"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Ring of Dragon Resistance +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that lowers Dragon damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DragonResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_DragonResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_DragonResist_2",
+      "IconName": "Accessory_DragonResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2141,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Dragon_2"
+    },
+    "effects": [
+      "Dragon Damage Reduction Lv. 2"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Ring of Dragon Resistance +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly lowers Dragon damage.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_DragonResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_DragonResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 10000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_DragonResist_3",
+      "IconName": "Accessory_DragonResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2142,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "ElementResist_Dragon_3"
+    },
+    "effects": [
+      "Dragon Damage Reduction Lv. 3"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Ring of Mercy",
+    "rarity": "Rare",
+    "description": "Pacifist's ring.\r\nThe wearer's attacks will not reduce the target's Health below 1.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_Nonkilling.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_Nonkilling.webp",
+    "recipe": [
+      {
+        "name": "Ingot",
+        "quantity": 30,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png"
+      },
+      {
+        "name": "Paldium Fragment",
+        "quantity": 20,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png"
+      },
+      {
+        "name": "Ancient Civilization Parts",
+        "quantity": 5,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png"
+      }
+    ],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 2,
+      "Gold Coin": 30000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_Nonkilling",
+      "IconName": "Accessory_Nonkilling",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2143,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "NonKilling"
+    },
+    "effects": [
+      "Mercy Hit"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Ability Glasses",
+    "rarity": "Rare",
+    "description": "Glasses used to discern hidden Pal abilities.\r\nDisplays Health, Attack and Defense stats on a scale of 0 to 100.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_TalentChecker.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_TalentChecker.webp",
+    "recipe": [
+      {
+        "name": "Refined Ingot",
+        "quantity": 30,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png"
+      },
+      {
+        "name": "Paldium Fragment",
+        "quantity": 20,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png"
+      },
+      {
+        "name": "Ancient Civilization Parts",
+        "quantity": 10,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalCrystal_Ex.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-parts.png"
+      },
+      {
+        "name": "Ancient Civilization Core",
+        "quantity": 5,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AncientParts2.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ancient-civilization-core.png"
+      }
+    ],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 2,
+      "Gold Coin": 5000,
+      "Weight": 1,
+      "MaxStackCount": 1,
+      "Code": "Accessory_TalentChecker",
+      "IconName": "Accessory_TalentChecker",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2144,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor"
+    },
+    "effects": []
+  },
+  {
+    "id": 47,
+    "name": "Multiclimate Undershirt",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises Heat and Cold Resistance.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatColdResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HeatColdResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 30000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HeatColdResist_1",
+      "IconName": "Accessory_HeatColdResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2046,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Heat1Cold1"
+    },
+    "effects": [
+      "Heat Resistant Lv. 1 / Cold Resistant Lv. 1"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Multiclimate Undershirt +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that raises Heat and Cold Resistance.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatColdResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HeatColdResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 50000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HeatColdResist_2",
+      "IconName": "Accessory_HeatColdResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2047,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Heat2Cold2"
+    },
+    "effects": [
+      "Heat Resistant Lv. 2 / Cold Resistant Lv. 2"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Multiclimate Undershirt +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises Heat and Cold Resistance.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_HeatColdResist_1.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_HeatColdResist_1.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 100000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_HeatColdResist_3",
+      "IconName": "Accessory_HeatColdResist",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2048,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "TemperatureResist_Heat3Cold3"
+    },
+    "effects": [
+      "Heat Resistant Lv. 3 / Cold Resistant Lv. 3"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Ring of Freight",
+    "rarity": "Common",
+    "description": "An accessory that slightly raises carrying capacity.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_MaxWeightUp.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_MaxWeightUp.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Common",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 1000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_MaxWeightUp_01",
+      "IconName": "Accessory_MaxWeightUp",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2145,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "MaxInventoryWeight_up_Equip_1"
+    },
+    "effects": [
+      "Max Carrying Capacity Lv. 1"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Ring of Freight +1",
+    "rarity": "Uncommon",
+    "description": "An accessory that raises carrying capacity.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_MaxWeightUp.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_MaxWeightUp.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 4000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_MaxWeightUp_02",
+      "IconName": "Accessory_MaxWeightUp",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2146,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "MaxInventoryWeight_up_Equip_2"
+    },
+    "effects": [
+      "Max Carrying Capacity Lv. 2"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Ring of Freight +2",
+    "rarity": "Rare",
+    "description": "An accessory that greatly raises carrying capacity.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_MaxWeightUp.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_MaxWeightUp.webp",
+    "recipe": [],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 8,
+      "Gold Coin": 7000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_MaxWeightUp_03",
+      "IconName": "Accessory_MaxWeightUp",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2147,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "MaxInventoryWeight_up_Equip_3"
+    },
+    "effects": [
+      "Max Carrying Capacity Lv. 3"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Anti-Gravity Belt",
+    "rarity": "Uncommon",
+    "description": "An accessory that increases the player's jump power when equipped.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpPower_Increase.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_JumpPower_Increase.webp",
+    "recipe": [
+      {
+        "name": "Ingot",
+        "quantity": 30,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CopperIngot.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/ingot.png"
+      },
+      {
+        "name": "Paldium Fragment",
+        "quantity": 30,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png"
+      },
+      {
+        "name": "Nightstar Sand",
+        "quantity": 10,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png"
+      }
+    ],
+    "stats": {
+      "Rarity": "Uncommon",
+      "Type": "Accessory",
+      "Rank": 2,
+      "Gold Coin": 30000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_JumpPower_Increase",
+      "IconName": "Accessory_JumpPower_Increase",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2148,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "JumpPower_Increase"
+    },
+    "effects": [
+      "Jump Power Boost"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Double Jump Boots",
+    "rarity": "Rare",
+    "description": "An accessory that allows the player to jump in mid-air when equipped.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpCount_Increase.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_JumpCount_Increase.webp",
+    "recipe": [
+      {
+        "name": "Refined Ingot",
+        "quantity": 30,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png"
+      },
+      {
+        "name": "Paldium Fragment",
+        "quantity": 50,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png"
+      },
+      {
+        "name": "Nightstar Sand",
+        "quantity": 20,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png"
+      }
+    ],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 2,
+      "Gold Coin": 30000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_JumpCount_Increase1",
+      "IconName": "Accessory_JumpCount_Increase1",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2149,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "JumpCount_Increase1"
+    },
+    "effects": [
+      "Jump Count Increase +1"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Triple Jump Boots",
+    "rarity": "Epic",
+    "description": "An accessory that allows the player to perform double jumps in mid-air when equipped.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpCount_Increase.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_JumpCount_Increase.webp",
+    "recipe": [
+      {
+        "name": "Hexolite",
+        "quantity": 30,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_StainlessSteel.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/hexolite.png"
+      },
+      {
+        "name": "Paldium Fragment",
+        "quantity": 150,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png"
+      },
+      {
+        "name": "Nightstar Sand",
+        "quantity": 50,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png"
+      },
+      {
+        "name": "Dark Fragment",
+        "quantity": 50,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/dark-fragment.png"
+      }
+    ],
+    "stats": {
+      "Rarity": "Epic",
+      "Type": "Accessory",
+      "Rank": 3,
+      "Gold Coin": 30000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_JumpCount_Increase2",
+      "IconName": "Accessory_JumpCount_Increase2",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2150,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "JumpCount_Increase2"
+    },
+    "effects": [
+      "Jump Count Increase +2"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Air Dash Boots",
+    "rarity": "Rare",
+    "description": "An accessory that allows the player to dash in mid-air when equipped.",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AirDash.webp",
+    "recipe": [
+      {
+        "name": "Refined Ingot",
+        "quantity": 30,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_IronIngot.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/refined-ingot.png"
+      },
+      {
+        "name": "Paldium Fragment",
+        "quantity": 50,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png"
+      },
+      {
+        "name": "Nightstar Sand",
+        "quantity": 20,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png"
+      }
+    ],
+    "stats": {
+      "Rarity": "Rare",
+      "Type": "Accessory",
+      "Rank": 2,
+      "Gold Coin": 30000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AirDash1",
+      "IconName": "Accessory_AirDash1",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2152,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "AirDash_1"
+    },
+    "effects": [
+      "Aerial Dash +1"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Double Air Dash Boots",
+    "rarity": "Epic",
+    "description": "An accessory that allows the player to perform double dashes in mid-air when equipped.|",
+    "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp",
+    "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/accessories/T_itemicon_Accessory_AirDash.webp",
+    "recipe": [
+      {
+        "name": "Plasteel",
+        "quantity": 30,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/plasteel.png"
+      },
+      {
+        "name": "Paldium Fragment",
+        "quantity": 100,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Pal_crystal_S.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/paldium-fragment.png"
+      },
+      {
+        "name": "Nightstar Sand",
+        "quantity": 30,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_NightStone.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/nightstar-sand.png"
+      },
+      {
+        "name": "Dark Fragment",
+        "quantity": 30,
+        "image_url": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_PalDarkParts.webp",
+        "image_github_url": "https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/dark-fragment.png"
+      }
+    ],
+    "stats": {
+      "Rarity": "Epic",
+      "Type": "Accessory",
+      "Rank": 3,
+      "Gold Coin": 30000,
+      "Weight": 2,
+      "MaxStackCount": 1,
+      "Code": "Accessory_AirDash2",
+      "IconName": "Accessory_AirDash2",
+      "TypeA": "Accessory",
+      "TypeB": "Accessory",
+      "SortID": 2153,
+      "ItemStaticClass": "CommonArmor",
+      "ItemDynamicClass": "CommonArmor",
+      "SneakAttackRate": 1,
+      "PassiveSkillName": "AirDash_2"
+    },
+    "effects": [
+      "Aerial Dash +2"
+    ]
+  }
+]
