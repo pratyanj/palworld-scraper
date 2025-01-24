@@ -100,14 +100,14 @@ class PalDetails:
         # Description
         desc_element = card.find('div', class_='card-body')
         item['description'] = desc_element.text.strip() if desc_element else ''
-        print("Description:", item['description'])
+        # print("Description:", item['description'])
         # Image
         img_element = card.find('img', loading='lazy')
         image_name = item['name'].replace(" ", "-").lower()
         # item['image'] = f"../assets/images/{item_type}/{image_name}.png"
         item['image_url'] = img_element['src'] if img_element else ''
         itemname = item['image_url'].split('/')[-1]
-        item['image_github_url'] = f"https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/{item_type}/{itemname}.png"
+        item['image_github_url'] = f"https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/{item_type}/{itemname}"
         # print("Image URL:", item['image_url'])
         if item['image_url']:
             if img:
@@ -133,8 +133,8 @@ class PalDetails:
                 recipe_item['quantity'] = int(item_quantity.text) if item_quantity else ''
                 # recipe_item['image'] = f"../assets/images/items/{recipe_item['name'].replace(' ', '-').lower()}.png"
                 recipe_item['image_url'] = recipe_img['src'] if recipe_img else ''
-                image_name1 = recipe_item['name'].replace(" ", "-").lower()
-                recipe_item['image_github_url'] = f"https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/{image_name1}.png"
+                itemname = recipe_item['image_url'].split('/')[-1]
+                recipe_item['image_github_url'] = f"https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/{itemname}"
                 recipe_items.append(recipe_item)
             item['recipe'] = recipe_items
         # print("Recipe:", item['recipe'])
@@ -379,14 +379,22 @@ class PalDetails:
         # Extract description and effects
             desc_element = card.find('div', class_='card-body')
             if desc_element:
-                # Get main description
-                description_text = desc_element.text.split('div>')[0].strip()
-                accessory['description'] = description_text
-                
-                # Get effects/skills
                 effects = desc_element.find_all('div', class_='item_skill_bar')
                 accessory['effects'] = [effect.text.strip() for effect in effects]
+                description = ''
+                main_text_div = desc_element.find('div')
+                if main_text_div:
+                    for content in main_text_div.contents:
+                        if isinstance(content, str):
+                            description += content.strip()
+                        elif content.name == 'a':
+                            description += content.text.strip()
+                        elif content.name == 'div' and 'item_skill_bar' in content.get('class', []):
+                            break
+                            
+                accessory['description'] = description.strip()
         return self.process_items('https://paldb.cc/en/Accessory', 'accessories', 'accessories.json',img,test,process_accessory)
+    
 
     def get_Consumable(self,img,test):
             """Retrieve consumable details.""" 
