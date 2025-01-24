@@ -100,13 +100,14 @@ class PalDetails:
         # Description
         desc_element = card.find('div', class_='card-body')
         item['description'] = desc_element.text.strip() if desc_element else ''
-        # print("Description:", item['description'])
+        print("Description:", item['description'])
         # Image
         img_element = card.find('img', loading='lazy')
         image_name = item['name'].replace(" ", "-").lower()
         # item['image'] = f"../assets/images/{item_type}/{image_name}.png"
         item['image_url'] = img_element['src'] if img_element else ''
-        item['image_github_url'] = f"https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/{item_type}/{image_name}.png"
+        itemname = item['image_url'].split('/')[-1]
+        item['image_github_url'] = f"https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/{item_type}/{itemname}.png"
         # print("Image URL:", item['image_url'])
         if item['image_url']:
             if img:
@@ -238,7 +239,7 @@ class PalDetails:
         except Exception as e:
             print(f"Warning: Could not collect stats for {item_name}: {e}")
             return {}
-    def process_items(self, url, item_type, filename,img ,additional_processing=None,):
+    def process_items(self, url, item_type, filename,img ,test,additional_processing=None,):
         """Generic method to process items and save details to a file."""
         soup = self.get_soup(url)
         items = []
@@ -252,6 +253,10 @@ class PalDetails:
                     additional_processing(card, item)
                 if item:
                     items.append(item)
+                # For testing, break after 3 items
+                if count == 3 and test:
+                    break
+                
 
             # Save to JSON
             file_path = os.path.join(self.inventory_dir, filename)
@@ -261,7 +266,7 @@ class PalDetails:
 
         return items
 
-    def get_weapon(self,img):
+    def get_weapon(self,img,test):
         """Retrieve weapon details."""
         def process_weapon(card, weapon):
             # Additional weapon-specific processing
@@ -280,9 +285,9 @@ class PalDetails:
                 ammo_value = ammo_element.find_next('span', class_='border')
                 weapon['ammo'] = ammo_value.text if ammo_value else ''
 
-        return self.process_items('https://paldb.cc/en/Weapon', 'weapons', 'weapons.json',img,process_weapon)
+        return self.process_items('https://paldb.cc/en/Weapon', 'weapons', 'weapons.json',img,test,process_weapon)
 
-    def get_sphere(self,img):
+    def get_sphere(self,img,test):
         """Retrieve sphere details."""
         def process_sphere(card, sphere):
             # Extract capture power
@@ -296,9 +301,9 @@ class PalDetails:
             if tech_element:
                 tech_value = tech_element.find_next('span', class_='border')
                 sphere['technology'] = int(tech_value.text) if tech_value else ''
-        return self.process_items('https://paldb.cc/en/Sphere', 'spheres', 'spheres.json',img,process_sphere)
+        return self.process_items('https://paldb.cc/en/Sphere', 'spheres', 'spheres.json',img,test,process_sphere)
 
-    def get_sphere_module(self,img):
+    def get_sphere_module(self,img,test):
         """Retrieve sphere module details."""
         def process_sphere_module(card, sphere_module):
             # Extract technology level
@@ -320,9 +325,9 @@ class PalDetails:
                 print(":--------",sphere_module['description'])
                 effects = desc_element.find_all('div', class_='item_skill_bar')
                 sphere_module['effects'] = [effect.text.strip() for effect in effects]
-        return self.process_items('https://paldb.cc/en/Sphere_Module', 'sphere_modules', 'sphere_modules.json',img ,process_sphere_module)
+        return self.process_items('https://paldb.cc/en/Sphere_Module', 'sphere_modules', 'sphere_modules.json',img ,test,process_sphere_module)
 
-    def get_armor(self,img):
+    def get_armor(self,img,test):
         """Retrieve armor details."""
         def process_armor(card, armor):
             # Extract defense value
@@ -349,9 +354,26 @@ class PalDetails:
                 shield_value = shield_element.find_next('span', class_='border')
                 armor['shield'] = int(shield_value.text) if shield_value else ''
             
-        return self.process_items('https://paldb.cc/en/Armor', 'armors', 'armors.json',img,process_armor)
+            # Extract description and effects
+            desc_element = card.find('div', class_='card-body')
+            if desc_element:
+                effects = desc_element.find_all('div', class_='item_skill_bar')
+                armor['effects'] = [effect.text.strip() for effect in effects]
+                description = ''
+                main_text_div = desc_element.find('div')
+                if main_text_div:
+                    for content in main_text_div.contents:
+                        if isinstance(content, str):
+                            description += content.strip()
+                        elif content.name == 'a':
+                            description += content.text.strip()
+                        elif content.name == 'div' and 'item_skill_bar' in content.get('class', []):
+                            break
+                            
+                armor['description'] = description.strip()
+        return self.process_items('https://paldb.cc/en/Armor', 'armors', 'armors.json',img,test,process_armor)
 
-    def get_accessory(self,img):
+    def get_accessory(self,img,test):
         """Retrieve accessory details."""
         def process_accessory(card, accessory):
         # Extract description and effects
@@ -364,9 +386,9 @@ class PalDetails:
                 # Get effects/skills
                 effects = desc_element.find_all('div', class_='item_skill_bar')
                 accessory['effects'] = [effect.text.strip() for effect in effects]
-        return self.process_items('https://paldb.cc/en/Accessory', 'accessories', 'accessories.json',img,process_accessory)
+        return self.process_items('https://paldb.cc/en/Accessory', 'accessories', 'accessories.json',img,test,process_accessory)
 
-    def get_Consumable(self,img):
+    def get_Consumable(self,img,test):
             """Retrieve consumable details.""" 
             def process_Consumable(card, consumable):
                 # Extract Nutrition value
@@ -439,9 +461,9 @@ class PalDetails:
                     Exp_value = Exp_element.find_next('span', class_='border')
                     consumable['exp'] =int( Exp_value.text) if Exp_value else ''
                 
-            return self.process_items('https://paldb.cc/en/Consumable', 'consumables', 'consumables.json',img,process_Consumable)
+            return self.process_items('https://paldb.cc/en/Consumable', 'consumables', 'consumables.json',img,test,process_Consumable)
     
-    def get_ammo(self,img):
+    def get_ammo(self,img,test):
         def process_ammo(card, ammo):
             
             # Extract Ammo Type value
@@ -450,9 +472,9 @@ class PalDetails:
                 Technology_value = Technology_element.find_next('span', class_='border')
                 ammo['technology'] =int( Technology_value.text) if Technology_value else ''
                 
-        return (self.process_items('https://paldb.cc/en/Ammo', 'ammo', 'ammo.json',img, process_ammo))
+        return (self.process_items('https://paldb.cc/en/Ammo', 'ammo', 'ammo.json',img,test, process_ammo))
     
-    def get_Ingredient(self,img):
+    def get_Ingredient(self,img,test):
         def process_Ingredient(card, ingredient):
 
             # Extract Nutrition value
@@ -503,10 +525,10 @@ class PalDetails:
                 HungerResist_value = HungerResist_element.find_next('span', class_='border')
                 ingredient['HungerResist'] =int( HungerResist_value.text) if HungerResist_value else ''
                  
-        return (self.process_items('https://paldb.cc/en/Ingredient', 'ingredients', 'ingredients.json',img, process_Ingredient))
+        return (self.process_items('https://paldb.cc/en/Ingredient', 'ingredients', 'ingredients.json',img,test, process_Ingredient))
 
     # ------------------------construction---------------------------
-    def get_Production(self,img):
+    def get_Production(self,img,test):
         # Extract SAN value
         def process_Production(card, production):
             # Extract SAN value
@@ -521,7 +543,7 @@ class PalDetails:
                 Technology_value = Technology_element.find_next('span', class_='border')
                 production['technology'] =int( Technology_value.text) if Technology_value else ''
         
-        return self.process_items('https://paldb.cc/en/Production', 'productions', 'productions.json',img,process_Production)
+        return self.process_items('https://paldb.cc/en/Production', 'productions', 'productions.json',img,test,process_Production)
 # Create GUI for data collection
 
 

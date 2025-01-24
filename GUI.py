@@ -75,12 +75,16 @@ class PalWorldGUI:
         )
         self.img_label.pack(side="left", padx=5)
 
-        self.truechcek = ctk.CTkCheckBox(self.checkboxfram, text="Yes", checkbox_height=20, checkbox_width=20, command=lambda: self.falsechcek.deselect())
+        self.truechcek = ctk.CTkCheckBox(self.checkboxfram, text="Yes", checkbox_height=20, checkbox_width=20)
         self.truechcek.pack(side="left", padx=5)
 
-        self.falsechcek = ctk.CTkCheckBox(self.checkboxfram, text="No", checkbox_height=20, checkbox_width=20, command=lambda: self.truechcek.deselect())
-        self.falsechcek.select()        
-        self.falsechcek.pack(side="left", padx=5)
+              
+        self.test_label = ctk.CTkLabel(self.checkboxfram, text="Testing data", font=("Roboto", 12))
+        self.test_label.pack(side="left", padx=10)
+        self.test_true = ctk.CTkCheckBox(self.checkboxfram, text="True", checkbox_height=20, checkbox_width=20)
+        self.test_true.pack(side="left", padx=10)
+        
+
         # Buttons section - using grid layout
         self.buttons_frame = ctk.CTkFrame(self.container)
         self.buttons_frame.pack(pady=20, padx=20, fill="both", expand=True)
@@ -276,20 +280,19 @@ class PalWorldGUI:
             return True
         else:
             return False
+    def test_check(self):
+        if self.test_true.get():
+            return True
+        else:
+            return False
     
     def collect_data(self, collection_function,file_name):
         try:
-            print('-------1-------')
             self.show_loading(True)
-            print('-------2-------')
             collection_function()
-            print('-------3-------')
             self.show_loading(False)
-            print('-------4-------')
             print(f"Data collected and saved to {file_name}")
-            print('-------5-------')
             self.update_stats(file_name)
-            print('-------6-------')
             messagebox.showinfo("Success", "Data collected successfully!")
         except Exception as e:
             self.show_loading(False)
@@ -298,31 +301,31 @@ class PalWorldGUI:
     
     # Define the collection functions
     def collect_weapons(self):
-        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_weapon(self.img_check()),"weapons.json")).start()
+        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_weapon(self.img_check(),self.test_check()),"weapons.json")).start()
     
     def collect_spheres(self):
-        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_sphere(self.img_check()),'spheres.json')).start()
+        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_sphere(self.img_check(),self.test_check()),'spheres.json')).start()
     
     def collect_sphere_modules(self):
-        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_sphere_module(self.img_check()),'sphere_modules.json')).start()
+        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_sphere_module(self.img_check(),self.test_check()),'sphere_modules.json')).start()
     
     def collect_armor(self):
-        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_armor(self.img_check()),'armors.json')).start()
+        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_armor(self.img_check(),self.test_check()),'armors.json')).start()
     
     def collect_accessories(self):
-        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_accessory(self.img_check()),'accessories.json')).start()
+        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_accessory(self.img_check(),self.test_check()),'accessories.json')).start()
         
     def collect_consumables(self):
-        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_Consumable(self.img_check()),'consumables.json')).start()
+        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_Consumable(self.img_check(),self.test_check()),'consumables.json')).start()
     
     def collect_ammo(self):
-        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_ammo(self.img_check()),'ammo.json')).start()
+        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_ammo(self.img_check(),self.test_check()),'ammo.json')).start()
         
     def collect_ingredients(self):
-        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_Ingredient(self.img_check()),'ingredients.json')).start()
+        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_Ingredient(self.img_check(),self.test_check()),'ingredients.json')).start()
         
     def collect_productions(self):
-        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_Production(self.img_check()),'productions.json')).start()
+        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_Production(self.img_check(),self.test_check()),'productions.json')).start()
         
     def run(self):
         self.window.mainloop()
