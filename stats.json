@@ -1,0 +1,15 @@
+{
+  "Rarity": "Common",
+  "Type": "Material",
+  "Rank": 1,
+  "Gold Coin": 70,
+  "Weight": 2,
+  "MaxStackCount": 9999,
+  "Code": "RainbowCrystal",
+  "IconName": "RainbowCrystal",
+  "TypeA": "Material",
+  "TypeB": "MaterialOre",
+  "SortID": 5028,
+  "VisualBlueprintClassName": "BP_Item_CrystalOre",
+  "SneakAttackRate": 1
+}

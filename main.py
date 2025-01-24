@@ -134,7 +134,7 @@ class PalDetails:
                 # recipe_item['image'] = f"../assets/images/items/{recipe_item['name'].replace(' ', '-').lower()}.png"
                 recipe_item['image_url'] = recipe_img['src'] if recipe_img else ''
                 itemname = recipe_item['image_url'].split('/')[-1]
-                recipe_item['image_github_url'] = f"https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/items/{itemname}"
+                recipe_item['image_github_url'] = f"https://raw.githubusercontent.com/pratyanj/PalDex/master/assets/images/materials/{itemname}"
                 recipe_items.append(recipe_item)
             item['recipe'] = recipe_items
         # print("Recipe:", item['recipe'])
@@ -395,7 +395,8 @@ class PalDetails:
                 accessory['description'] = description.strip()
         return self.process_items('https://paldb.cc/en/Accessory', 'accessories', 'accessories.json',img,test,process_accessory)
     
-
+    def get_material(self,img,test):
+        return self.process_items('https://paldb.cc/en/Material', 'materials', 'materials.json',img,test)
     def get_Consumable(self,img,test):
             """Retrieve consumable details.""" 
             def process_Consumable(card, consumable):

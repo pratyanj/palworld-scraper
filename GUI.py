@@ -99,6 +99,7 @@ class PalWorldGUI:
             "Ammo": ("🎯", self.collect_ammo),
             "Ingredients": ("🧪", self.collect_ingredients),
             "Productions": ("⚒️", self.collect_productions),
+            "Materials": ("🧱", self.collect_materials)
         }
         
         # Create buttons in a grid layout
@@ -161,7 +162,8 @@ class PalWorldGUI:
             "Consumables",
             "Ammo",
             "Ingredients",
-            "Productions"
+            "Productions",
+            'meterials'
         ]
 
         self.item_type_var = ctk.StringVar(value=self.item_types[3])
@@ -314,7 +316,9 @@ class PalWorldGUI:
     
     def collect_accessories(self):
         threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_accessory(self.img_check(),self.test_check()),'accessories.json')).start()
-        
+    
+    def collect_materials(self):
+        threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_material(self.img_check(),self.test_check()),'materials.json')).start()
     def collect_consumables(self):
         threading.Thread(target=lambda: self.collect_data(lambda:self.pal_details.get_Consumable(self.img_check(),self.test_check()),'consumables.json')).start()
     
