@@ -148,8 +148,11 @@ class PalDetails:
     def stats(self, item_name: str, page: str, rarity: str = "Common"):
         try:
             
-            url = f'https://paldb.cc/en/{item_name.replace("+","%2B").replace(" ","_").replace("'",'%27').replace("(","%28").replace(")","%29")}'
-            print(url)
+            url = f'https://paldb.cc/en/{item_name.replace("+","%2B").replace(" ","_").replace("'",'%27').replace("(","%28").replace(")","%29").replace(":","%3A")}'
+            if url == 'https://paldb.cc/en/Applied_Watering_Technique_Ⅰ':
+                url = 'https://paldb.cc/en/Applied_Watering_Technique%E2%85%A0'
+                
+            print("URL:",url)
         
             try:
                 response = self.session.get(url, timeout=30)
@@ -314,17 +317,20 @@ class PalDetails:
             # Extract description and effects
             desc_element = card.find('div', class_='card-body')
             if desc_element:
-                description = ''
-                for content in desc_element.contents:
-                    if isinstance(content, str):
-                        description += content.strip()
-                    elif content.name == 'div' and 'item_skill_bar' in content.get('class', []):
-                        break
-            
-                sphere_module['description'] = description.strip()
-                print(":--------",sphere_module['description'])
                 effects = desc_element.find_all('div', class_='item_skill_bar')
                 sphere_module['effects'] = [effect.text.strip() for effect in effects]
+                description = ''
+                main_text_div = desc_element.find('div')
+                if main_text_div:
+                    for content in main_text_div.contents:
+                        if isinstance(content, str):
+                            description += content.strip()
+                        elif content.name == 'a':
+                            description += content.text.strip()
+                        elif content.name == 'div' and 'item_skill_bar' in content.get('class', []):
+                            break
+                            
+                sphere_module['description'] = description.strip()
         return self.process_items('https://paldb.cc/en/Sphere_Module', 'sphere_modules', 'sphere_modules.json',img ,test,process_sphere_module)
 
     def get_armor(self,img,test):
